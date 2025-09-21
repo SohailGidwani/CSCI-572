@@ -1,0 +1,4 @@
+Combined comparison of DuckDuckGo vs multiple Google JSONs.
+- given: average percent overlap = 13.4, average Spearman coefficient = -3.9935 (over 100 queries with data).
+- live: average percent overlap = 14.9, average Spearman coefficient = -7.235499999999999 (over 100 queries with data).
+Notes: Overlap% uses 10 as the denominator (Google's top-10). Spearman is computed only on overlapping URLs; in this assignment variant, values may fall outside [-1,1]. Blank cells indicate the query was not present in that Google JSON.
